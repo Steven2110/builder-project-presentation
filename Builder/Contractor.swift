@@ -32,7 +32,7 @@ extension Contractor {
         }
     }
     
-    func buildAverageHouse(_ builder: Builder) {
+    func buildAverageHouse(_ builder: Builder, builderType: BuilderType = BuilderType.average) {
         switch builderType {
         case .average:
             builder.buildBedrooms(5)
@@ -64,7 +64,7 @@ extension Contractor {
         }
     }
     
-    func buildComplexHouse(_ builder: Builder) {
+    func buildComplexHouse(_ builder: Builder, builderType: BuilderType = BuilderType.complex) {
         switch builderType {
         case .complex:
             builder.buildBedrooms(10)

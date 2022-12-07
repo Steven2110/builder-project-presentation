@@ -36,7 +36,25 @@ print("Using director class (Contractor):\n")
 let contractor = Contractor()
 let builderForClient1 = HouseBuilder(width: 9, length: 15)
 
-contractor.setBuilder(builderType: .complex)
 contractor.buildComplexHouse(builderForClient1)
 let clientHouse: House = builderForClient1.build()
 print(clientHouse.description)
+print("")
+
+// Other example
+let anotherContractor = Contractor()
+let builderForClient2 = HouseBuilder(width: 30, length: 70)
+
+anotherContractor.buildSimpleHouse(builderForClient2, builderType: .simple)
+let clientHouse2: House = builderForClient2.build()
+print(clientHouse2.description)
+print("")
+
+// Other example
+let anotherContractor2 = Contractor()
+let builderForClient3 = HouseBuilder(width: 45.9, length: 105.5)
+
+anotherContractor2.buildAverageHouse(builderForClient3, builderType: .simple)
+let clientHouse3: House = builderForClient3.build()
+print(clientHouse3.description)
+print("")
