@@ -23,7 +23,6 @@ protocol Builder {
     func buildSwimmingPool()
     func buildGarden()
     func buildStatue()
-    func build() -> House
 }
 
 class HouseBuilder: Builder {
@@ -46,43 +45,43 @@ class HouseBuilder: Builder {
 }
 
 extension HouseBuilder {
-    public func buildDoors(_ doors: Int) {
+    func buildDoors(_ doors: Int) {
         self.doors = doors
     }
     
-    public func buildWindows(_ windows: Int) {
+    func buildWindows(_ windows: Int) {
         self.windows = windows
     }
     
-    public func buildBedrooms(_ bedrooms: Int) {
+    func buildBedrooms(_ bedrooms: Int) {
         self.bedrooms = bedrooms
     }
     
-    public func buildBathrooms(_ bathrooms: Int) {
+    func buildBathrooms(_ bathrooms: Int) {
         self.bathrooms = bathrooms
     }
     
-    public func buildKitchens(_ kitchens: Int) {
+    func buildKitchens(_ kitchens: Int) {
         self.kitchens = kitchens
     }
     
-    public func buildGarage() {
+    func buildGarage() {
         self.garage = true
     }
     
-    public func buildGarden() {
+    func buildGarden() {
         self.garden = true
     }
     
-    public func buildSwimmingPool() {
+    func buildSwimmingPool() {
         self.swimmingPool = true
     }
     
-    public func buildStatue() {
+    func buildStatue() {
         self.statue = true
     }
     
-    public func build() -> House {
+    func build() -> House {
         House(
             width: width, length: length,
             windows: windows, doors: doors,
