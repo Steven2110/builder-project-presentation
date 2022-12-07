@@ -32,7 +32,7 @@
 		B08578772941130B0008AF5D /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		B0857879294113300008AF5D /* Contractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contractor.swift; sourceTree = "<group>"; };
 		B085787F294133800008AF5D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B0857881294146EF0008AF5D /* Result-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Result-main.png"; path = "../../../../../Desktop/Result-main.png"; sourceTree = "<group>"; };
+		B0857884294149040008AF5D /* Result-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Result-main.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			children = (
 				B085787F294133800008AF5D /* README.md */,
 				B085786D294112A20008AF5D /* Builder */,
-				B0857880294146BF0008AF5D /* Screenshots */,
+				B0857883294148D30008AF5D /* Screenshots */,
 				B085786C294112A20008AF5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,10 +75,10 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
-		B0857880294146BF0008AF5D /* Screenshots */ = {
+		B0857883294148D30008AF5D /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				B0857881294146EF0008AF5D /* Result-main.png */,
+				B0857884294149040008AF5D /* Result-main.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
